@@ -32,7 +32,7 @@ const Header = () => {
                         <a
                             className={classNames(
                                 'sm:ml-6 md:ml-8 text-gray-900 dark:text-gray-100',
-                                'hover:text-green-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110',
+                                'transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110',
                                 {
                                     'ml-4': index > 0,
                                     'font-semibold cursor-not-allowed':

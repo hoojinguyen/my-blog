@@ -1,8 +1,10 @@
 import type { NextPage } from 'next'
+import Greeting from '~/components/greeting'
 
 const Home: NextPage = () => {
     return (
         <div>
+            <Greeting />
             <p>Homepage</p>
             <p>lorem ipsum dolor sit amet, consectetur</p>
             <p>

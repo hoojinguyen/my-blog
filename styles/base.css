@@ -8,6 +8,8 @@
     }
     body {
         @apply antialiased bg-white dark:bg-black text-gray-700 dark:text-gray-300;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+            'Liberation Mono', 'Courier New', monospace;
     }
     strong {
         @apply font-semibold;
